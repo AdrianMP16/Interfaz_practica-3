@@ -217,3 +217,38 @@ nav a.login{
 .card button:hover{
     background-color: #008f88;
 }
+.download{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 40px;
+}
+.download-text h2{
+    font-size: 42px;
+    color: #000000;
+}
+.download-text p{
+    font-size: 20px;
+}
+.download-text {
+    flex: 1;
+    min-width: 100px;
+}
+.download-img img{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+.download-sites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.download-sites img{
+    width: 180px;
+    height: auto;
+}

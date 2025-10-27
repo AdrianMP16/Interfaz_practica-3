@@ -23,11 +23,11 @@
             <ul>
 
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Serivicios</a></li>
-                <li><a href="#">App</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#aboutId">Nosotros</a></li>
+                <li><a href="#servicesId">Serivicios</a></li>
+                <li><a href="#appId">App</a></li>
+                <li><a href="#galleryId">Galeria</a></li>
+                <li><a href="#contactId">Contacto</a></li>
                 <li><a href="#" class="login">Login</a></li>
 
             </ul>
@@ -62,7 +62,7 @@
             </div>
         </div>
     </main>
-    <section class="about">
+    <section class="about" id="aboutId">
         <div class="about-text">
             <h2>Sobre Nosotros</h2>
             <p>En ElectroStation, impulsamos la movilidad electrica, conectandote con las mejores estaciones de carga.
@@ -75,7 +75,7 @@
             <img src="css/imagenes/About.png" alt="Estacion de carga">
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="servicesId">
         <h2>Servicios</h2>
         <p>Ofrecemos soluciones inteligentes para la movilidad electrica del futuro.</p>
         <div class="service-cards">
@@ -96,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="download">
+    <section class="download" id="appID">
         <div class="download-img">
             <img src="css/imagenes/phone.png" alt="Telefono">
         </div>
@@ -111,6 +111,54 @@
             </div>
         </div>
     </section>
+    <section class="container-gallery" id="galleryId">
+        <div class="gallery-text">
+            <h2>Galeria</h2>
+            <p>Explora nuestra galeria y descubre como hacemos posible tu carga rapida, segura y eficiente</p>
+        </div>
+        <div class="container-carrusel">
+            <div class="carrusel">
+                <div class="carrusel-item"><img src="css/imagenes/carro-blanco.jpg" height="150px" width="150px"
+                        alt="Carro blanco"></div>
+                <div class="carrusel-item"><img src="css/imagenes/carro-carga.avif" height="150px" width="150px"
+                        alt="Carro carga"></div>
+                <div class="carrusel-item"><img src="css/imagenes/carro-rojo.jpg" height="150px" width="150px"
+                        alt="Carro rojo"></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-map" id="contactId">
+        <div class="contact-form">
+            <h3>Tienes preguntas? Escribenos</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Nombre">
+                <input type="email" name="" id="" placeholder="Correo">
+                <input type="tel" name="" id="" placeholder="Celular">
+                <textarea name="" id="" placeholder="Observaciones"></textarea>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label>Terminos y condiciones</label>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7979.582211397834!2d-78.4930680149036!3d-0.21162289322127825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sepn%20mapa!5e0!3m2!1ses-419!2sec!4v1761571916292!5m2!1ses-419!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="container-footer" id="footerId">
+            <div class="siguenos">
+                <h2>Siguenos en redes</h2>
+                <img src="/css/imagenes/facebook.png" alt="Facebook">
+                <img src="css/imagenes/twitter.png" alt="twitter">
+                <img src="css/imagenes/logotipo-de-instagram.png" alt="Instagram">
+            </div>
+            
+        <p>&copy; 2025 Mateo Piedra. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
